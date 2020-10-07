@@ -1,0 +1,31 @@
+
+div#calculadora{
+    background: rgb(34, 243, 79);
+    color: rgb(160, 73, 241);
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+
+article.botoes{
+    margin: 10px 55px;
+
+}
+
+input#number1 {
+    width: 55px;
+    height:30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(170, 16, 190);
+    margin-left: 50px;
+}
+ 
+input#number2{
+    width: 55px;
+    height:30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(170, 16, 190);
+}
