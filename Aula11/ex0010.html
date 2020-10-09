@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estrangeiro</title>
+</head>
+<body>
+    <h1>Identificador de Nomes</h1>
+    <input type="text" name="nat" id="nat" >
+    <input type="button"  value="verificar" onclick="verificar()">
+    <div id="resultado">
+
+    </div>
+
+    <script>
+        function verificar(){
+            var txtres = window.document.getElementById('nat')
+            var txtnat = window.document.getElementById('resultado')
+            var iden = String(txtres.value)
+            txtnat.innerText = `seu pais é ${iden}`
+                if(iden == "Davi"){
+                    txtnat.innerText = `Você é Estranho`
+                }else {
+                    txtnat.innerText = `Você é Normal`
+                }
+        }
+    </script>
+</body>
+</html>
